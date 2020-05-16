@@ -343,15 +343,27 @@ $$
 3. **Proof**: comparative statics, $dw^*/db$
 4. **Proof**: comparative statics, $dw^*/d\beta$
 
-### 4.3 Search equilibrium model
+### 4.3 Search equilibrium model (producing economy)
 
+![fig_macro_SearchCoconutModel.drawio](imgs/fig_macro_SearchCoconutModel.drawio.svg)
 
+#### 4.3.1 Setup
 
+$$
+\begin{align}
+	\text{Production sector: } & V_0 = -\gamma_0 + \beta\left[ \alpha_0\int\max(V_1-c,V_0)dF(c) + (1-\alpha_0)V_0    \right] \\
+	\text{Exchange sector: } & V_1 = -\gamma_1 + \beta\left[ \alpha_1(u+V_0) + (1-\alpha_1)V_1   \right]
+\end{align}
+$$
 
+#### 4.3.2 Conclusion: Equilibrium
 
+1. **Proof**: existence of reservation cost $k$
+2. **Proof**: necessary conditions for steady state
+3. **Proof**: steady state (population) distribution $n$
+4. **Proof**: $dk/dn$
 
-
-
+### 4.4 Baseline matching model (DMP model)
 
 
 
